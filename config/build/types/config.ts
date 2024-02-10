@@ -4,6 +4,7 @@ export interface buildPath {
 	entry: string
 	build: string
 	html: string
+	src: string
 }
 
 export interface buildOptions {
@@ -11,6 +12,7 @@ export interface buildOptions {
 	paths: buildPath
 	isDev: boolean
 	port: number
+	src: string
 }
 
 export interface envOptions {
